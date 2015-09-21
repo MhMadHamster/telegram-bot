@@ -15,7 +15,7 @@ bot.on('message', function(msg) {
 				message += '/commands - list of availalble commands\n';
 				message += '/xckd - xckd comics\n';
 				message += '/finn - to get finn quote\n';
-				message += '/jake - to get jake quoten\n';
+				message += '/jake - to get jake quote\n';
 				message += '/iceking - to get iceking quote\n';
 				message += '_Anything else_ for _anything else_\n';
 			bot.sendMessage(chatId, message, {parse_mode: 'Markdown'});
