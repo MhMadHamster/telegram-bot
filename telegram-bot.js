@@ -2,7 +2,7 @@ var request = require('request');
 var cheerio = require('cheerio');
 var at = require('at-quotes');
 var TelegramBot = require('node-telegram-bot-api');
-var token = '132727129:AAEan8KjHS5mIiaBU0hr4zK9ClVh-vmYzIE';
+var token = '';
 var bot = new TelegramBot(token, {polling: true});
 
 bot.on('message', function(msg) {
